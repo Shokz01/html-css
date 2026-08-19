@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(148, 199, 169);
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(78, 165, 124), rgb(60, 112, 84));
+    color: white;
+    padding: 10px;
+}
+
+header > h1 {
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+}
+
+header > p {
+    text-align: center;
+    padding: 20px 10px 30px 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+}
+
+article > h1 {
+    font-family: 'idroid', sans-serif;
+    color: rgb(25, 119, 80);
+    padding: 20px;
+}
+
+article > h2 {
+    font-family: 'idroid', sans-serif;
+    color: rgb(25, 119, 80);
+    background-color: rgba(0, 160, 107, 0.329);
+    margin: 20px;
+}
+
+article > p {
+    text-indent: 2em;
+    margin: 20px;
+}
+
+article > p > a {
+    color: rgb(25, 119, 80);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article > p > a:hover {
+    text-decoration: underline;
+}
+
+#quasefim {
+    background-color: rgb(148, 199, 169);
+    padding-bottom: 10px;
+    margin:0px 20px;
+    border-radius: 10px;
+    padding: 0px 0px 10px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+}
+
+#quasefim > h3 {
+    color: white;
+    background-color: rgb(56, 128, 98);
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    margin: 0%;
+}
+
+#quasefim > ul {
+    padding: 10px;
+    text-align: justify;
+}
+
+#quasefim > p {
+    padding: 10px;
+    margin: 0%;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    padding: 0px 20px;
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(8, 66, 42);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.video {
+    background: #0d5a47;
+    margin: 10px 0%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

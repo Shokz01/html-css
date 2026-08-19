@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body {
+    background-image: linear-gradient(to left, #005C53, #042940);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid #9FC131;
+}
+
+.titulo {
+    color: #DBF227;
+    font-family: 'Audiowide';
+    font-size: 10em;
+    text-align: center;
+}
+
+h2 {
+    color: #D6D58E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+button {
+    background-color: rgb(78, 78, 78);
+    color: white;
+
+    padding: 12px 24px;
+    
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 3em;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+p {
+    color: #DBF227;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.inicio {
+    height: 100vh;
+    width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
